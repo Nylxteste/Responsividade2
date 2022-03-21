@@ -4,40 +4,52 @@
     box-sizing: border-box;
 }
 .espaco1{
-    background-color: blue;
+    background-image: url(https://c.tenor.com/OQm_CBGEQLAAAAAC/oi-meu.gif);
+    background-size: cover;
     display: inline-block;
     width: 33%;
+    height: 200px;
+    color: transparent;
 }
 .espaco2{
-    background-color: red;
-    display: inline-block;
-    width: 33%
-}
-.espaco3{
-    background-color: yellow;
+    background-image: url(https://c.tenor.com/lGZKeP9t_PUAAAAC/texugo-zeca-urubu.gif);
+    background-size:cover;
+    background-position: top center;
     display: inline-block;
     width: 33%;
+    height: 200px;
+    color: transparent;
+}
+.espaco3{
+    background-image: url(https://i.pinimg.com/originals/57/55/65/575565b33620ebf176346dfbbb970061.gif);
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    color: transparent;
+}
+body{
+    background-color: green;
 }
 
 div{
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 797px) {
     .espaco1{
-        background-color: blue;
         display: inline-block;
         float: left;
         width: 50%;
+
     }
     .espaco2{
-        background-color: red;
         display: inline-block;
         float: right;
         width: 50%
+        
+        
     }
     .espaco3{
-        background-color: yellow;
         position: relative;
         width: 50%;
         left: 25%;
